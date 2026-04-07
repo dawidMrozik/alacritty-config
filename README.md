@@ -6,6 +6,7 @@ Minimal Tokyo Night setup for macOS with tmux integration.
 
 ```bash
 git clone https://github.com/dawidMrozik/alacritty-config.git ~/.config/alacritty
+xattr -d com.apple.quarantine /Applications/Alacritty.app
 cp ~/.config/alacritty/.tmux.conf ~/
 ```
 
